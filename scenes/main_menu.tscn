@@ -1,0 +1,55 @@
+[gd_scene load_steps=5 format=3 uid="uid://goa622km68cn"]
+
+[ext_resource type="Script" path="res://scenes/main_menu.gd" id="1_f3yab"]
+[ext_resource type="Texture2D" uid="uid://jyce23eu2evs" path="res://scenes/Pink.png" id="1_rwhbr"]
+[ext_resource type="Texture2D" uid="uid://lweddguyuoey" path="res://scenes/cooltext468553955940832.png" id="2_6syt3"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_gsrq8"]
+
+[node name="MainMenu" type="Node"]
+script = ExtResource("1_f3yab")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_rwhbr")
+stretch_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -276.5
+offset_top = -85.0
+offset_right = 276.5
+offset_bottom = 85.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_6syt3")
+
+[node name="play" type="Button" parent="."]
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -123.0
+offset_top = 95.0
+offset_right = 155.0
+offset_bottom = 186.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Play"
+icon = SubResource("ViewportTexture_gsrq8")
+icon_alignment = 1
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
