@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=12 format=3 uid="uid://c45tm6p7cum"]
+=======
+[gd_scene load_steps=12 format=3 uid="uid://b6lir6lxnqkvf"]
+>>>>>>> Stashed changes
 
 [ext_resource type="Script" path="res://game_manager.gd" id="1_n5an6"]
 [ext_resource type="Texture2D" uid="uid://fcuyk603j73t" path="res://Brown.png" id="2_fygrf"]
