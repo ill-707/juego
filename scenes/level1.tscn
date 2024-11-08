@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cwkx4w1ojiemr" path="res://scenes/main_character.tscn" id="4_k0y4r"]
 [ext_resource type="PackedScene" uid="uid://btsht62iwjnuh" path="res://scenes/collectable.tscn" id="5_posgo"]
 [ext_resource type="PackedScene" uid="uid://dnljw3jvmv5r" path="res://scenes/finish.tscn" id="6_n88ji"]
-[ext_resource type="PackedScene" uid="uid://bp6su61ejb5qe" path="res://scenes/level2.tscn" id="7_yxby7"]
+[ext_resource type="PackedScene" uid="uid://bp6su61ejb5qe" path="res://scenes/level3.tscn" id="7_yxby7"]
 [ext_resource type="Texture2D" uid="uid://bykkwrnuio4vu" path="res://heart.webp" id="9_qxw43"]
 [ext_resource type="PackedScene" uid="uid://cyglhodfauf74" path="res://scenes/enemy.tscn" id="9_t6vft"]
 
