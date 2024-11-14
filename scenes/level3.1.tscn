@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cwkx4w1ojiemr" path="res://scenes/main_character.tscn" id="4_8vrwx"]
 [ext_resource type="PackedScene" uid="uid://btsht62iwjnuh" path="res://scenes/collectable.tscn" id="5_8rbit"]
 [ext_resource type="PackedScene" uid="uid://dnljw3jvmv5r" path="res://scenes/finish.tscn" id="6_nmbfa"]
-[ext_resource type="PackedScene" uid="uid://goa622km68cn" path="res://scenes/main_menu.tscn" id="7_svhtl"]
+[ext_resource type="PackedScene" uid="uid://ba8xqo5v14jwg" path="res://scenes/level4.tscn" id="7_4t52k"]
 [ext_resource type="PackedScene" uid="uid://cyglhodfauf74" path="res://scenes/enemy.tscn" id="8_ngtay"]
 [ext_resource type="Texture2D" uid="uid://bykkwrnuio4vu" path="res://heart.webp" id="9_5oovn"]
 
@@ -233,15 +233,9 @@ hearts = [NodePath("../UI/hearts/HBoxContainer/heart"), NodePath("../UI/hearts/H
 
 [node name="TextureRect" type="TextureRect" parent="SceneObjects"]
 texture_filter = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -5.0
-offset_top = -58.0
-offset_right = 2861.0
-offset_bottom = -3.0
-grow_horizontal = 2
-grow_vertical = 2
+offset_top = -62.0
+offset_right = 3993.0
+offset_bottom = 712.0
 texture = ExtResource("2_6p84g")
 stretch_mode = 1
 
@@ -304,8 +298,8 @@ position = Vector2(373, 211)
 position = Vector2(1544, 76)
 
 [node name="finish" parent="SceneObjects" instance=ExtResource("6_nmbfa")]
-position = Vector2(3761, 2)
-target_level = ExtResource("7_svhtl")
+position = Vector2(3800, 538)
+target_level = ExtResource("7_4t52k")
 
 [node name="enemies" type="Node" parent="SceneObjects"]
 
