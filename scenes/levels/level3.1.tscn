@@ -299,7 +299,7 @@ position = Vector2(373, 211)
 position = Vector2(1544, 76)
 
 [node name="finish" parent="SceneObjects" instance=ExtResource("6_nmbfa")]
-position = Vector2(3800, 538)
+position = Vector2(1635, 60)
 target_level = ExtResource("7_4t52k")
 
 [node name="enemies" type="Node" parent="SceneObjects"]
