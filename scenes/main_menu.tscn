@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://goa622km68cn"]
 
 [ext_resource type="Script" path="res://scenes/main_menu.gd" id="1_f3yab"]
-[ext_resource type="Texture2D" uid="uid://jyce23eu2evs" path="res://scenes/Pink.png" id="1_rwhbr"]
-[ext_resource type="Texture2D" uid="uid://lweddguyuoey" path="res://scenes/cooltext468553955940832.png" id="2_6syt3"]
+[ext_resource type="Texture2D" uid="uid://lweddguyuoey" path="res://assets/background/cooltext468553955940832.png" id="2_6syt3"]
+[ext_resource type="Texture2D" uid="uid://cv0fhh1f4k8xa" path="res://assets/background/Pink.png" id="2_ua8cb"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_gsrq8"]
 
@@ -16,7 +16,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_rwhbr")
+texture = ExtResource("2_ua8cb")
 stretch_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="."]
