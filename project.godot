@@ -14,6 +14,10 @@ config/name="juego"
 run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 
+[autoload]
+
+AudioStreamPlayer2d="*res://scenes/audio_stream_player_2d.tscn"
+
 [display]
 
 window/defaults/default_clear_color=Color(0.3, 0.3, 0.3, 1)
